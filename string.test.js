@@ -1,6 +1,7 @@
 const stringLength = require('./string-length');
 const reverseString = require('./reverse-string');
 const Calculator = require('./calculator');
+const capitalizeString = require('./capitalise-string');
 
 describe('My String', () => {
   const testingValue = 'abed';
@@ -16,7 +17,7 @@ describe('My String', () => {
   });
 
   test(`Should return a capitalize string`, () => {
-    expect(capitaliseString(testingValue)).toMatch(/Abed/);
+    expect(capitalizeString(testingValue)).toMatch(/Abed/);
   });
 });
 
