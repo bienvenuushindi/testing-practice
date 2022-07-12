@@ -17,6 +17,7 @@ describe('My String', () => {
   });
 
   test(`Should return a capitalize string`, () => {
+    expect(typeof testingValue === "string").toBe(true);
     expect(capitalizeString(testingValue)).toMatch(/Abed/);
   });
 });
