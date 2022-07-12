@@ -1,7 +1,7 @@
 const stringLength = require('./string-length');
 const reverseString = require('./reverse-string');
 const Calculator = require('./calculator');
-const capitalizeString = require('./capitalise-string');
+const capitalizeString = require('./capitalize-string');
 
 describe('My String', () => {
   const testingValue = 'abed';
