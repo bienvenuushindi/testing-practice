@@ -1,4 +1,7 @@
 function stringLength(string) {
-  return string.length;
+  const length = string.length;
+  if (length < 1 || length > 10) throw new Error('Invalid Input');
+  else return length;
 }
+
 module.exports = stringLength;
