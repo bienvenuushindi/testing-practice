@@ -1,0 +1,23 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Write a few practical tests for JavaScript functions using the Jest library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bienvenuushindi/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bienvenuushindi/testing-practice/issues"
+  },
+  "homepage": "https://github.com/bienvenuushindi/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
